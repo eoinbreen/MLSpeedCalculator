@@ -1,7 +1,5 @@
 # Monster Legends Speed Calculator
 
-https://spring.io/guides/gs/rest-service/
-
 To build and start the app, open a command window in the root directory and run the following commands:
 
 - mvn package
@@ -10,7 +8,7 @@ To build and start the app, open a command window in the root directory and run 
 
 **homepage:** http://localhost:8080/index.html
 
-##API##
+## API ##
 http://localhost:8080/monster
 http://localhost:8080/monster?name=General Thetys 
 
