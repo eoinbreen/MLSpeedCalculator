@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Monster Legends Speed Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+	<div class="row">
+	  <div class="col-sm-6"><h1 style="text-align:center;">Monster Legends Speed Calculator</h1></div>
+	  <div class="col-sm-6"><button type="button" onclick="chooseMonster();" style="margin-top:20px;margin-bottom:20px;padding:10px;font-size:20px;">Show Monster</button></div>
+	</div>
+	
+	
+ 	<div class="row">
+	 <div class="col-sm-6">
+	 	<div style="height:500px;width:90%;border:1px solid; padding: 10px;">
+	 		
+	 	</div>
+	  </div>
+	 <div class="col-sm-6">
+		  <div style="height:500px;width:90%;border:1px solid; padding: 10px;">
+	  		<p class="beer-name" style="text-align:center;text-decoration: underline;font-size:20px;font-weight:bold;"> </p>
+	  		<p class="beer-description"> </p>
+	  		<p class="beer-abv"> </p>
+	  		<p class="beer-location"> </p>
+	  
+	  	</div>
+  	</div>
+	</div>
+  
+</div>
+
+</body>
+<script>
+$(document).ready(function() {
+	//alert('Test');
+});	
+
+
+
+function chooseMonster() {
+	
+	$.ajax({
+        //url: "/api/getRandomBeer"
+    }).then(function() {
+    	$('.beer-name').text("Javascript Working!!!");
+    });
+}
+</script>
+</html>
