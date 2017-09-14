@@ -9,8 +9,9 @@ To build and start the app, open a command window in the root directory and run 
 **homepage:** http://localhost:8080/index.html
 
 ## API ##
-http://localhost:8080/monster
-http://localhost:8080/monster?name=General Thetys 
+- http://localhost:8080/monster
+
+- http://localhost:8080/monster?name=General Thetys 
 
 ## Still To Do ##
 - Make Front End Webpage Better
