@@ -11,7 +11,7 @@ To build and start the app, open a command window in the root directory and run 
 ## API ##
 - http://localhost:8080/monster
 
-- http://localhost:8080/monster?name=General Thetys 
+- http://localhost:8080/monster?name=General_Thetys 
 
 ## Still To Do ##
 - Make Front End Webpage Better
